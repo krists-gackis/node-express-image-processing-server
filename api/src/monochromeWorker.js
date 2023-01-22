@@ -1,6 +1,5 @@
 const gm = require('gm');
-const { parentPort } = require('worker_threads');
-const (workerData, parentPort) = require('worker_threads')
+const {workerData, parentPort} = require('worker_threads')
 
 gm(workerData.source)
     .monochrome()
