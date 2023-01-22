@@ -31,3 +31,4 @@ router.post('upload', upload.single('photo'), (request, response) => {
 
     return response.status(201).json({success: true});
 })
+module.exports = router;
